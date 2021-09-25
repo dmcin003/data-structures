@@ -60,7 +60,6 @@ var LinkedList = function() {
     }
 
     while (list.tail.next !== null) {
-      //do some work
       if (list.tail.value === target) {
         return true;
       }
@@ -82,4 +81,9 @@ var Node = function(value) {
 
 /*
  * Complexity: What is the time complexity of the above functions?
+addtoTail O(1)
+
+removehead O(1)
+
+contains O(n)
  */

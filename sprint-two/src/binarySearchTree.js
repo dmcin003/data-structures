@@ -33,7 +33,7 @@ var binarySearchTreeMethods = {
     }
   },
 
-  // contains
+
   contains: function(target) {
     // Check this trees value is the target
     // if it is then return true
@@ -65,9 +65,7 @@ var binarySearchTreeMethods = {
     }
     return false;
   },
-  // [5, 2, 3]
-  // array.push;
-  // depthFirstLog
+
   depthFirstLog: function(callback) {
     // run the callback on the root tree value
     callback(this.value);
@@ -90,5 +88,8 @@ var binarySearchTreeMethods = {
 
 
 /*
- * Complexity: What is the time complexity of the above functions?
+* Complexity: What is the time complexity of the above functions?
+// Insert = O(log(n))
+// Contains = O(log(n))
+// DepthFirstLog = O(n)
  */
